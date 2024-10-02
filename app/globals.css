@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Poppins&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #111111;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-attachment: fixed;
+  /* background-image: url("/assets/bg-dotted.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@layer base {
+  .footer-item {
+    @apply transition-all duration-300 cursor-pointer hover:text-secondary-white;
+  }
+
+  .stats-card {
+    @apply border transition-all duration-300 hover:border-hover-card-border shadow hover:shadow-sm border-primary-card-border p-6 rounded-xl space-y-5;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #2b2a2a;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(70, 70, 70);
+  border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(73, 73, 73);
+}
+
+.progress-bar {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(
+    to right,
+    #1368a8,
+    #0e68c6,
+    #4462de,
+    #7c53ed,
+    #b52df0
+  );
+  transform-origin: 0%;
+}
