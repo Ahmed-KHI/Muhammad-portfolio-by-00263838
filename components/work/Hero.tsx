@@ -3,7 +3,7 @@ import React from "react";
 
 type Props = {};
 
-const Hero = (props: Props) => {
+const Hero = (_props: Props) => {
   return (
     <div className="text-secondary-white mb-14 relative">
       <div className={`${manrope} space-y-12 text-hero-primary-para`}>

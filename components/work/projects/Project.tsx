@@ -4,7 +4,7 @@ import { projectList } from "lib/project-list";
 
 type Props = {};
 
-const Project = (props: Props) => {
+const Project = (_props: Props) => {
   return (
     <div>
       <ProjectCard projectList={projectList} />

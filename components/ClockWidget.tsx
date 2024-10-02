@@ -5,7 +5,7 @@ import clsx from "clsx";
 
 type Props = {};
 
-const ClockWidget = (props: Props) => {
+const ClockWidget = (_props: Props) => {
   const [time, setTime] = useState<string[]>(getDateTime());
 
   useEffect(() => {

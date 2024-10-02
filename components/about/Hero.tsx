@@ -4,7 +4,7 @@ import clsx from "clsx";
 
 type Props = {};
 
-const Hero = (props: Props) => {
+const Hero = (_props: Props) => {
   return (
     <div className="text-secondary-white mb-20">
       <div className={clsx(manrope, "space-y-12", "text-hero-primary-para")}>

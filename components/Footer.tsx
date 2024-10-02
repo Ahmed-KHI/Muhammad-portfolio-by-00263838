@@ -11,7 +11,7 @@ import clsx from "clsx";
 
 type Props = {};
 
-const Footer = (props: Props) => {
+const Footer = (_props: Props) => {
   const pathname = usePathname();
 
   return (

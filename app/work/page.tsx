@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 type Props = {};
-const page = (props: Props) => {
+const page = (_props: Props) => {
 
   return (
     <PageWrapper>

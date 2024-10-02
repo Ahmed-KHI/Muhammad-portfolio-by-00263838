@@ -11,7 +11,7 @@ type Props = {};
 
 const categoryArray: Array<string> = ["Projects"];
 
-const WorkCategory = (props: Props) => {
+const WorkCategory = (_props: Props) => {
   const [category, setCategory] = useState<string>("Projects");
 
   return (
