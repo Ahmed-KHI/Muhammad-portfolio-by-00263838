@@ -1,15 +1,37 @@
 import { ProjectType } from "types/project";
 
 export const projectList: ProjectType[] = [
-{
-    id: 1, 
-    name: "BMI Calculator",
+  {
+    id: 1,
+    name: "Modern E-learning Website",
     description:
-      "A user-friendly BMI calculator that helps users determine their body mass index. Simple and intuitive, built with modern web technologies.",
-    tags: ["Next.js", "TypeScript", "React", "CSS"],
-    bgImage: "bmi-calculator-preview", // Ensure this image exists in your assets
-    logoImage: "bmi-calculator-logo",   // Ensure this image exists in your assets
-    githubUrl: "https://github.com/Ahmed-KHI/11_bmi_calculator-by-00263838.git", // Update with your actual GitHub URL
-    previewUrl: "https://11-bmi-calculator-by-00263838.vercel.app/", // Update with your Vercel URL
+      "This project showcases a modern, user-friendly interface designed for seamless learning experiences.",
+    tags: ["TailwindCSS", "TypeScript", "Next.js", "FrontendDevelopment", "React"],
+    bgImage: "Modern_E-learning_Website-preview",
+    logoImage: "Modern_E-learning_Website-logo",
+    githubUrl: "https://github.com/Ahmed-KHI/Modern_E-learning_Website-by-00263838.git",
+    previewUrl: "https://modern-e-learning-website-by-00263838.vercel.app/",
+  },
+  {
+    id: 2,
+    name: "Brioche & Beef - Burger Website",
+    description:
+      "A Modern Burger Shop Website with Next.js 14, React, TypeScript, and Tailwind CSS",
+    tags: ["Responsive Design", "React", "TailwindCSS", "TypeScript", "UI/UX Design"],
+    bgImage: "Brioche & Beef-preview",
+    logoImage: "Brioche & Beef-logo",
+    githubUrl: "https://github.com/Ahmed-KHI/Brioche---Beef-by-00263838.git",
+    previewUrl: "https://brioche-beef-by-00263838.vercel.app/",
+  },
+  {
+    id: 3,
+    name: "NexusNest Realty - Website",
+    description:
+      "A Responsive Real Estate Website using Next JS 14, TypeScript, and Tailwind CSS.",
+    tags: ["Web Design", "Next.js", "TypeScript", "TailwindCSS", "E-commerce Website"],
+    bgImage: "NexusNest-Realty-preview",
+    logoImage: "NexusNest-Realty-logo",
+    githubUrl: "https://github.com/Ahmed-KHI/NexusNest-Realty-by-00263838.git",
+    previewUrl: "https://nexus-nest-realty-by-00263838.vercel.app/",
   },
 ];
