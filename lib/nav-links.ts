@@ -11,4 +11,9 @@ export const navLinks: Array<NavLink> = [
     routeName: "Work",
     route: "/work",
   },
+  {
+    id: 3,
+    routeName: "Contact",
+    route: "/contact",
+  },
 ];

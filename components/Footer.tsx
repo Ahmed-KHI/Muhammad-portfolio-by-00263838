@@ -1,4 +1,3 @@
-
 "use client";
 
 import { FaHeart } from "react-icons/fa";
@@ -59,6 +58,14 @@ const Footer = (_props: Props) => {
               href="/work"
             >
               Work
+            </Link>
+          </p>
+          <p className="footer-item">
+            <Link
+              onClick={pathname === "/contact" ? scrollToTop : undefined}
+              href="/contact"
+            >
+              Contact
             </Link>
           </p>
         </div>
